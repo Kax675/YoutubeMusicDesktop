@@ -1,0 +1,36 @@
+{
+  "name": "YTMusic",
+  "version": "1.0.0",
+  "description": "(For the tutorial starting point app, see the [`src-start` directory](/src-start))",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-installer": "electron-builder"
+  },
+  "author": "Kaxozae",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^17.2.0",
+    "electron-builder": "^22.14.13"
+  },
+  "dependencies": {
+
+  },
+  "build": {
+    "appId": "YouTube Music",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "icons/logo.ico"
+    },
+    "nsis": {
+      "installerIcon": "icons/logo.ico",
+      "uninstallerIcon": "icons/logo.ico",
+      "uninstallDisplayName": "YouTube Music",
+      "license": "license.txt",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
