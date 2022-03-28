@@ -1,4 +1,5 @@
-### YTMusicCli | A new way to listen to music.
+![alt text](https://kaxozae.xyz/images/banner.png)
+## Youtube Music Desktop | A New Way To Listen Music On Your Desktop*
 An open source Youtube Music Client made with electron.
 
 
