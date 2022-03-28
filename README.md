@@ -25,7 +25,7 @@ An open source Youtube Music Client made with electron.
 ## FAQ
 
 #### Is it safe?
-Yeah, this program is %100 safe
+Yeah, This Program Is %100 Safe. You Can Safely Login to Your Google Account
 
 #### Is this program bannable?
 Basically, no.
@@ -45,5 +45,5 @@ See `contributing.md` for ways to get started.
 
 ## Support
 
-For support, you can always email to support@rexulec.com
+For support, you can always email to kaxozae@gmail.com
 
